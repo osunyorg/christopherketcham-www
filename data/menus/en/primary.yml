@@ -5,16 +5,16 @@ items:
   target: "/about/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Statement of Purpose
+    target: "/statement-of-purpose/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/statement-of-purpose"
+    file: content/en/pages/statement-of-purpose/_index.html
   path: "/pages/about"
   file: content/en/pages/about/_index.html
-- title: Statement of Purpose
-  target: "/statement-of-purpose/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/statement-of-purpose"
-  file: content/en/pages/statement-of-purpose/_index.html
 - title: Books
   target: "/books/"
   kind: page
@@ -44,6 +44,13 @@ items:
     file: content/en/pages/books/notes-from-september-11-poems-and-stories/_index.html
   path: "/pages/books"
   file: content/en/pages/books/_index.html
+- title: Magazine Work
+  target: "/magazine-work/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/magazine-work"
+  file: content/en/pages/magazine-work/_index.html
 - title: Posts
   target: "/posts/"
   kind: page
