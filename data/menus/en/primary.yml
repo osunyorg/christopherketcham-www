@@ -1,34 +1,6 @@
 ---
 title: Main menu
 items:
-- title: Posts
-  target: "/posts/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/en/posts/_index.html
-- title: Organizations
-  target: "/organizations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/en/organizations/_index.html
-- title: Persons
-  target: "/persons/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/persons"
-  file: content/en/persons/_index.html
-- title: Statement of Purpose
-  target: "/statement-of-purpose/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/statement-of-purpose"
-  file: content/en/pages/statement-of-purpose/_index.html
 - title: About
   target: "/about/"
   kind: page
@@ -36,6 +8,13 @@ items:
   children: []
   path: "/pages/about"
   file: content/en/pages/about/_index.html
+- title: Statement of Purpose
+  target: "/statement-of-purpose/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/statement-of-purpose"
+  file: content/en/pages/statement-of-purpose/_index.html
 - title: Books
   target: "/books/"
   kind: page
@@ -65,6 +44,13 @@ items:
     file: content/en/pages/books/notes-from-september-11-poems-and-stories/_index.html
   path: "/pages/books"
   file: content/en/pages/books/_index.html
+- title: Posts
+  target: "/posts/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/en/posts/_index.html
 - title: Donate
   target: "/donate/"
   kind: page
