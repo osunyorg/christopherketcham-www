@@ -40,7 +40,22 @@ items:
   target: "/books/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: 'This Land: How Cowboys, Capitalism, and Corruption Are Ruining the American
+      West (Viking-Penguin, 2019)'
+    target: "/books/this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/books/this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019"
+    file: content/en/pages/books/this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019/_index.html
+  - title: Unflattering Photos of Fascists (AK Press, 2020)
+    target: "/books/unflattering-photos-of-fascists-ak-press-2020/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/books/unflattering-photos-of-fascists-ak-press-2020"
+    file: content/en/pages/books/unflattering-photos-of-fascists-ak-press-2020/_index.html
   path: "/pages/books"
   file: content/en/pages/books/_index.html
 
