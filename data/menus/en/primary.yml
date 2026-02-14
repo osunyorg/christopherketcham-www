@@ -2,67 +2,89 @@
 title: Main menu
 items:
 - title: About
+  slug: about
   target: "/about/"
   kind: page
   new_tab: false
   children:
   - title: Statement of Purpose
+    slug: statement-of-purpose
     target: "/statement-of-purpose/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/statement-of-purpose"
     file: content/en/pages/statement-of-purpose/_index.html
+  descendants_targets:
+  - "/statement-of-purpose/"
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Books
+  slug: books
   target: "/books/"
   kind: page
   new_tab: false
   children:
   - title: 'This Land: How Cowboys, Capitalism, and Corruption Are Ruining the American
       West (Viking-Penguin, 2019)'
+    slug: this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019
     target: "/books/this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/books/this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019"
     file: content/en/pages/books/this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019/_index.html
   - title: Unflattering Photos of Fascists (AK Press, 2020)
+    slug: unflattering-photos-of-fascists-ak-press-2020
     target: "/books/unflattering-photos-of-fascists-ak-press-2020/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/books/unflattering-photos-of-fascists-ak-press-2020"
     file: content/en/pages/books/unflattering-photos-of-fascists-ak-press-2020/_index.html
   - title: 'Notes from September 11: Poems and Stories'
+    slug: notes-from-september-11-poems-and-stories
     target: "/books/notes-from-september-11-poems-and-stories/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/books/notes-from-september-11-poems-and-stories"
     file: content/en/pages/books/notes-from-september-11-poems-and-stories/_index.html
+  descendants_targets:
+  - "/books/notes-from-september-11-poems-and-stories/"
+  - "/books/this-land-how-cowboys-capitalism-and-corruption-are-ruining-the-american-west-viking-penguin-2019/"
+  - "/books/unflattering-photos-of-fascists-ak-press-2020/"
   path: "/pages/books"
   file: content/en/pages/books/_index.html
 - title: Magazine Work
+  slug: magazine-work
   target: "/magazine-work/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/magazine-work"
   file: content/en/pages/magazine-work/_index.html
 - title: Posts
+  slug: posts
   target: "/posts/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/en/posts/_index.html
 - title: Donate
+  slug: donate
   target: "/donate/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/donate"
   file: content/en/pages/donate/_index.html
 
